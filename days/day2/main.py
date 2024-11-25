@@ -24,7 +24,7 @@ def puzzle_one_sol() -> int:
     return total_score
 
 
-def puzzle_one_two() -> int:
+def puzzle_two_sol() -> int:
     """
     calculates the total score of Rock-Paper-Scissors with the given
     rules by puzzle two if following the strategy guides written in the
@@ -47,7 +47,7 @@ def main() -> None:
     Function for testing purposes
     """
     print(puzzle_one_sol())
-    print(puzzle_one_two())
+    print(puzzle_two_sol())
 
 
 if __name__ == '__main__':

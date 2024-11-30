@@ -315,9 +315,10 @@ def puzzle_two_sol() -> int:
         """
         # each element-movement a list of atom-movements
         element_movements: list[list[Movement] | None]
-        element_movements = [[movement]] + \
-            [None for _ in range(tail_length-1)]
         # movements are dependant on prev-movements so they get init to null
+        element_movements = [None for _ in range(tail_length)]
+        # first element (head) moves as stated by the data
+        element_movements[0] = [movement]  # data-movements are atom-movements
 
         # calculate movements one by one starting from the beginning
         for current_head_idx in range(tail_length-1):

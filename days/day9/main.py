@@ -49,9 +49,9 @@ def puzzle_one_sol() -> int:
         same as head  | same as head  | same as head
 
         case 4:       | case 5:       | case 6:
-        ... ... ...   | .T. .T. ...   | ..T ..T ...
-        .HT ..H ..T   | .H. ..H ..T   | .H. ..H ..T
-        ... ... ...   | .T. .T. ...   | ..T ..T ...
+        ... ... ...   | .T. .T. ...   | ..T ..T ..T
+        .HT ..H ..T   | .H. ..H ..T   | .H. ..H ...
+        ... ... ...   | .T. .T. ...   | ..T ..T ..T
         tail skips    | tail skips    | tail skips head
         head pos      | head pos      | pos and right
         ===============================================
